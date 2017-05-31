@@ -13,4 +13,6 @@ class ChiselTest < Minitest::Test
   def test_chisel_class_exists
     assert_instance_of Chisel, chisel
   end
+
+  def test
 end

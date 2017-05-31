@@ -1,6 +1,5 @@
-require 'redcarpet'
+require './lib/chisel_class'
 
-class Chisel
+chisel = Chisel.new(ARGV[0], ARGV[1])
 
-  
-end
+puts "Converted #{ARGV[0]} (lines) to #{ARGV[1]} (lines)"
