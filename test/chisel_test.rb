@@ -14,5 +14,4 @@ class ChiselTest < Minitest::Test
     assert_instance_of Chisel, chisel
   end
 
-  def test
 end
